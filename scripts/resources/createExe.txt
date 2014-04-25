@@ -1,0 +1,17 @@
+How to (re)create a Windows executable from dataCompetedScript.py
+-------------------------------------------------------------
+
+1. Download and install py2exe (http://www.lfd.uci.edu/~gohlke/pythonlibs/) for python 32 and/or 64 bit.
+
+2. The dist subfolder already contains builds for the 32 and 64 bit Windows platforms. If you need to recreate them, follow steps 3 and 4 below.
+
+3. Build the executable by running the following command in the console from the root of repository (one folder level higher):
+    
+    python resources/setup.py py2exe
+
+    Make sure to use the correct python interpreter (if you are building executables for 32 or 64 bit).
+
+4. The executable and the relative libraries will be in the dist/ subfolder; move them to their final location as follows.
+
+    32bit: move everything into dist/32bit/data_completed and copy resources/data_completed_script.bat to dist/32bit
+    64bit: move everything into dist/64bit/data_completed and copy resources/data_completed_script.bat to dist/64bit
