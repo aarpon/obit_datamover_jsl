@@ -1,2 +1,2 @@
-- Download (https://wiki-bsse.ethz.ch/display/DMV/Download+Page) and extract Datamover here.
+- Download and extract Datamover 15.06 (https://wiki-bsse.ethz.ch/download/attachments/21567716/datamover-15.06.0-r34542.zip) here.
 - Configure Datamover by modifying datamover/etc/service.properties as explained in the documentation (datamover/doc).
